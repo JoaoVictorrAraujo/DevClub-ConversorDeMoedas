@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none; /*não permite um campo com foco, tenha linha de borda azul*/
+}
+
+body{
+    background-color: #8A51FC;
+}
+.logo{
+    width:300px;
+    height: 300px;
+    display: block; /*Por padrão, imagens são display:inline, onde não ocupam a linha completa, e block ocupa a linha toda*/
+    margin:20px auto;
+}
+
+main{
+    width: 327px;
+    background: #F4F4F4;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px;
+}
+
+.logosGeral{
+    width: 45px;
+}
+
+label{
+    color: #777;
+    font-weight: 400;
+    font-size:14px;
+}
+
+select, input{
+    background: #fff;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none; /*retira a seta lateral direita apontada para baixo do select*/
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555
+}
+
+button{
+    width: 100%;
+    background-color: #772fd3;
+    border: none;
+    height: 48px;
+    border-radius: 5px;
+    font-size:16px;
+    color:#fff;
+    font-weight: 700;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.6;
+}
+
+section{
+    border: 1px solid #772fd3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img{
+    margin: 15px 0;
+}
+.currency-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:4px /*adiciona distância entre os itens*/
+
+}
+
+.currency{
+color: #777;
+font-weight: 400;
+font-size: 14px;
+}
+.currency-value, .currency-value-to-convert{
+    color:#555;
+    font-size: 20px;     
+    font-weight: 700;
+}
