@@ -82,7 +82,10 @@ function trocarImg(){
    logoImg.src="./assets/EstadosUnidos.png"
 }else if (currencySelectValue.value=='euro'){
     currencyName.innerHTML='Euro'
-    logoImg.src='./assets/Euro.png'
+    logoImg.src='./assets/Euro.png' 
+}else if (currencySelectValue.value=='real'){
+    currencyName.innerHTML='Real'
+    logoImg.src='./assets/Brasil.png'
     
 }
 convertValues()
